@@ -1,0 +1,229 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:id="@+id/info"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <RelativeLayout 
+       		android:orientation="horizontal"
+      		android:layout_width="match_parent"
+      		android:layout_height="wrap_content"
+      		android:layout_weight="1">
+  	        <TextView
+	            android:id="@+id/text1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+    	 		android:layout_marginLeft="40dip"
+	            android:text="A"
+	            android:textSize="20sp" />
+	        <ImageView
+		        android:id="@+id/train1"
+		        android:layout_width="120sp"
+		        android:layout_height="60sp"
+		     	android:layout_below="@id/text1"
+		        android:src="@drawable/character1" />
+	        <TextView
+	            android:id="@+id/text2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="40dip"
+	            android:layout_alignParentRight="true"
+	            android:text="a"
+	            android:textSize="20sp" />
+	    	<TextView
+	            android:id="@+id/texta"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/train1"
+	            android:layout_marginLeft="40dip"
+	            android:textSize="20sp" />
+	    </RelativeLayout>
+        <RelativeLayout 
+     		android:orientation="horizontal"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1">
+  	        <TextView
+	            android:id="@+id/text3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+    			android:layout_marginLeft="40dip"
+	            android:text="B"
+	            android:textSize="20sp" />
+	        <ImageView
+		        android:id="@+id/train2"
+		        android:layout_width="120sp"
+		        android:layout_height="60sp"
+		     	android:layout_below="@id/text3"
+		        android:src="@drawable/character1" />
+	        <TextView
+	            android:id="@+id/text4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="40dip"
+	            android:layout_alignParentRight="true"
+	            android:text="C"
+	            android:textSize="20sp" />
+	       	<TextView
+	            android:id="@+id/textb"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/train2"
+	            android:layout_marginLeft="40dip"
+	            android:textSize="20sp" />
+		</RelativeLayout>
+        <RelativeLayout 
+     		android:orientation="horizontal"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+      		android:layout_weight="1">    		
+   	        <TextView
+	            android:id="@+id/text5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	      	 	android:layout_marginLeft="40dip"
+	            android:text="C"
+	            android:textSize="20sp" />
+			<ImageView
+		        android:id="@+id/train3"
+		        android:layout_width="120sp"
+		        android:layout_height="60sp"
+		        android:layout_below="@id/text5"
+		        android:src="@drawable/character1" />
+	        <TextView
+	            android:id="@+id/text6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="40dip"
+	            android:layout_alignParentRight="true"
+	            android:text="D"
+	            android:textSize="20sp" />
+	       	<TextView
+	            android:id="@+id/textc"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/train3"
+	            android:layout_marginLeft="40dip"
+	            android:textSize="20sp" />
+		</RelativeLayout>
+        <RelativeLayout 
+     		android:orientation="horizontal"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+      		android:layout_weight="1">    		
+  	        <TextView
+	            android:id="@+id/text7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	      	 	android:layout_marginLeft="40dip"
+	            android:text="D"
+	            android:textSize="20sp" />
+			<ImageView
+		        android:id="@+id/train4"
+		        android:layout_width="120sp"
+		        android:layout_height="60sp"
+		        android:layout_below="@id/text7"
+		        android:src="@drawable/character1" />		
+	        <TextView
+	            android:id="@+id/text8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="40dip"
+	            android:layout_alignParentRight="true"
+	            android:text="E"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:id="@+id/textd"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/train4"
+	            android:layout_marginLeft="40dip"
+	            android:textSize="20sp" />
+		</RelativeLayout>
+        <LinearLayout 
+            android:id="@+id/emptyspace"
+	   		android:orientation="horizontal"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="wrap_content"
+    		android:layout_weight="2" />   
+		</LinearLayout>
+	<LinearLayout 
+        android:id="@+id/weather"
+   		android:orientation="vertical"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+   		android:layout_weight="1" >
+	    <ImageView
+	        android:id="@+id/weatherImg"
+	        android:layout_width="200sp"
+	        android:layout_height="200sp"
+	        android:layout_weight="2"
+	        android:layout_gravity="center"
+	        android:src="@drawable/weather_etc" />        
+        	<TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />
+        	<TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />
+        	<TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />
+        	<TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />
+        	<TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />        	
+        	<TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />
+        	<TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not connected to your internet"
+            android:layout_weight="1"
+            android:textSize="30sp" />        	
+        </LinearLayout>
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+  	</TableLayout>
+</LinearLayout>
